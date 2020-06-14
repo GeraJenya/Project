@@ -1,0 +1,35 @@
+.review {
+    min-height: 1050px;
+    &__item {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        height: 169px;
+        width: 269px;
+        margin-right: 62px;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 700;
+        text-align: left;
+        color: #0d0d0d;
+    }
+    &__count {
+        font-size: 14px;
+        font-weight: 300;
+        text-align: left;
+        color: #646464;
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: left;
+        color: #0d0d0d;
+    }
+}
